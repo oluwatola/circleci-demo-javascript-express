@@ -225,7 +225,7 @@ Also, `target-path` supports [ejs](https://github.com/mde/ejs) and the following
       ]
     }
     ```
-    Here, notice the usage. In `<module-name>/<component-name>`, `<module-name>` will be passed as `parent` and `<component-name>` will be passed as `<name>`.
+    Here, notice the usage. In `<module-name>/<component-name>`, `<module-name>` will be passed as `parent` and `<component-name>` will be parsed as `<name>`.
 
 3. `helpers` - an helper object is passed which include common utility functions. For now, it contains `capitalize`. If you want to add more, send a PR to [mern-cli](https://github.com/Hashnode/mern-cli).
 
